@@ -12,6 +12,8 @@ android_app {
 
     defaults: ["aapt_version_code_defaults"],
 
+    overrides: ["Camera2"],
+
     srcs: ["src/main/java/**/*.kt"],
     resource_dirs: ["src/main/res"],
     manifest: "src/main/AndroidManifest.xml",
